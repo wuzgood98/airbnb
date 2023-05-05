@@ -1,4 +1,4 @@
-import { getCurrentUser, getListingById, getReservations } from "@/app/actions";
+import { getCurrentUser, getListingById, getReservations } from "@/actions";
 import { ClientOnly, EmptyState } from "@/components";
 import ListingClient from "./ListingClient";
 

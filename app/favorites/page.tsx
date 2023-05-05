@@ -1,5 +1,5 @@
 import { EmptyState, ClientOnly } from "@/components";
-import { getCurrentUser, getFavoriteListings } from "@/app/actions";
+import { getCurrentUser, getFavoriteListings } from "@/actions";
 
 import FavoritesClient from "./FavouritesClient";
 
