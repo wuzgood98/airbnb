@@ -1,4 +1,4 @@
-import { getCurrentUser, getListings } from "@/actions";
+import { getCurrentUser, getListings } from "@/app/actions";
 import { ClientOnly, EmptyState } from "@/components";
 import PropertiesClient from "./PropertyClient";
 

@@ -1,12 +1,12 @@
-import { getCurrentUser, getListings } from "@/actions";
-import { IListingsParams } from "@/actions/getListings";
+import { getCurrentUser, getListings } from "@/app/actions";
+import { IListingsParams } from "@/app/actions/getListings";
 import { ClientOnly, Container, EmptyState, ListingCard } from "@/components";
 
 type HomeProps = {
   searchParams: IListingsParams;
 };
 
-export const dynamic = "auto";
+export const dynamic = "force-dynamic";
 
 export default async function Home({ searchParams }: HomeProps) {
   const listings = await getListings(searchParams);

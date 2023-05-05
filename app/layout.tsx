@@ -9,7 +9,7 @@ import {
   SearchModal,
 } from "@/components";
 import "./globals.css";
-import { getCurrentUser } from "@/actions";
+import { getCurrentUser } from "@/app/actions";
 
 export const metadata = {
   title: "Airbnb",
