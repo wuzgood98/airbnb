@@ -1,4 +1,3 @@
-"use client";
 import prisma from "@/libs/prismadb";
 
 interface IParams {
