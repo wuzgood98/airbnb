@@ -1,5 +1,5 @@
 import { EmptyState, ClientOnly } from "@/components";
-import { getCurrentUser, getReservations } from "@/actions";
+import { getCurrentUser, getReservations } from "@/app/actions";
 import ReservationsClient from "./ReservationsClient";
 
 const ReservationsPage = async () => {
