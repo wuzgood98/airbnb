@@ -1,5 +1,5 @@
-import { getCurrentUser, getListings } from "@/app/actions";
-import { IListingsParams } from "@/app/actions/getListings";
+import getCurrentUser from "@/app/actions/getCurrrentUser";
+import getListings, { IListingsParams } from "@/app/actions/getListings";
 import { ClientOnly, Container, EmptyState, ListingCard } from "@/components";
 
 type HomeProps = {
